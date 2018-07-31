@@ -67,7 +67,7 @@ if __name__ == "__main__":
         yin = Block(m1, m2, m3)  # 一口气加入4条记录
         yin.seal()  # 密封
 
-        # m3.data="你妹的直播平台" #直接秀应该messgae
+        # m3.data="update" #直接秀应该messgae
         yin.messagelist[2] = m1
 
         print(yin.validate())

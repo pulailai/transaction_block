@@ -63,8 +63,8 @@ if __name__ == "__main__":  # 单独模块测试
         m4.seal()  # 交易记录密封
 
         # 修改数据,模拟纂改
-        m2.data = "你妹的直播平台"
-        m2.prev_hash = "他娘的直播平台"
+        m2.data = "update data "
+        m2.prev_hash = "update data"
 
         print(m1)
         print(m2)
